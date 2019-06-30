@@ -1,0 +1,116 @@
+/*selector{
+	propperty:value;
+}*/
+*{
+	text-align: left;
+}
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+}
+h2, p {
+	color: #AA4139 ;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+}
+
+.btn-primary {
+	background-color: orange;
+}
+
+.btn-primary : hover {
+background-color: black ;
+}
+
+.col {
+	background-color: grey ;
+	border: 2px solid black;
+}
+/*
+h2, p {
+	color: #AA4139 ;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+	*/
+
+/* h2 p {
+	color: #AA4139 ;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+}
+*/
+
+/*
+h2 > p
+color: #AA4139 ;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+*/
+
+/*
+h2 + p
+color: #AA4139 ;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+*/
+
+/*
+h2 + p:hover {
+color: #AA4139 ;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+	}
+*/
+
+
+
+li {
+	color: green ;
+	list-style: none;
+	display: inline-block;
+}
+
+/*
+li {
+	color: green !important;
+	list-style: none;
+	display: inline-block;
+}*/
+
+
+
+h1 {color: blue
+}
+
+.webtext {
+	border: 5px solid green;
+}
+	/*
+.webtest :last-child {
+border: 5px dashed green ;
+}
+	*/
+
+		/*
+.webtest :first-child {
+border: 5px dashed green ;
+}
+	*/
+
+.active {
+	color: black ;
+
+}
+
+#div1 {
+	background: rgba (0, 0, 250, 0.2) ;
+}
+#div2 {
+	background: rgb(255, 0, 0, 0.2);
+}
